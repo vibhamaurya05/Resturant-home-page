@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+    background-size: cover;
+}
+.navbar{
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: black; */
+}
+.logo{
+    width: 120px;
+    height: 40px;
+}
+
+.list{    
+    height:40px;
+    width:500px;
+    /* margin-left: 280px; */
+    color: rgb(243, 210, 66);
+    font-size: 1.3rem;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    display: flex;    
+    justify-content:space-evenly; 
+    align-items: center;
+    list-style-type: none;    
+}
+.button-small{
+    width: 120px;
+    height: 35px;
+    margin-right: 50px;
+    color: white;
+    
+    border-radius: 5px;
+    background-color: #f53958;    
+}
+.hero-heading{
+    height: 380px;
+    /* border: 2px solid black; */
+    /* background-color: blueviolet; */
+    
+}
+h1{
+    text-align: center;
+    color: rgb(245, 215, 84);
+    font-size: 80px;
+    font-family: 'Red Rose';
+    margin-top: 60px;
+}
+.button-large{
+    height: 50px;
+    width: 200px;
+    background-color: #f8284b;
+    font-size: 17px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 570px;
+}
